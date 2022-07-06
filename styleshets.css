@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.container {
+    background-color: #7FFFD4;
+    color: #9932CC;
+    font-size:17px;
+    font-weight:700;
+    font-family: 'Playfair Display', serif;
+    width: auto;
+}
+
+.avatar {
+    border-radius: 23px;
+    width: 250px;
+    box-shadow:-19px 9px 1px 0px rgb(0 0 0 / 25%);
+}
+.info p{
+    color: #006400;
+    margin bottom: 2px;
+    font-style: italic;
+}
+.box {
+    border-radius: 25px;
+    width: 47%;
+    padding:15px;
+    margin-bottom: 20px;
+    border: 2px;
+}
+
+ a {
+    color: #00008B;	;
+    text-decoration: none;
+}
+
+ a:hover {
+    text-decoration: underline;
+}
+
+ a:active {
+   color: yellow;
+}
+
+ a:visited {
+   color: gray;
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bgoranges{
+  background: #FF8C00; 
+  color: #00008B; 
+}
+
+.bgpink{
+  background: #FF00FF;
+  color: #00008B;
+    
+}
+
+.bggren{
+  background: #00FF7F; 
+  color: #00008B;
+}
+
+.bggren th{
+  font-style: italic;
+  text-align: left;
+}
+
+.bgpink table {
+  background: #FF00FF;
+  color: #00008B;
+  width: 100%;   
+}
+
+ .bgpink tr:nth-child(1) {
+  text-align: center;
+}
+
+.bgpink table td:nth-child(2),
+.bgpink table td:nth-child(3)
+{
+  color: #FFE4E1;
+}
+
+.bggren li{
+  list-style-image: url(sticer.png);
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+.conection h2{
+    text-align: center;
+}
+.form-group label{
+    font-size: 15px;
+    display:block;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color:blueviolet;
+    background:transparent;
+    border-bottom: 1px solid;
+    outline: none;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.row .form-group{
+   width: 50%;
+   margin-right: 20px;
+}
+.info{
+display: flex;
+margin-bottom: 20px;
+}
+
+@media (max-width:700px){
+    .info {
+        text-align: center;
+        display: block; 
+    }
+}
+
+.info-text{
+    margin-left: 20px;
+    font-size: 25px;
+    line-height:25px
+}
+
+.sub input{
+    background: #FFDEAD;
+    font-family: inherit;
+    border: none;
+    border-radius: 40px 40px;
+    cursor: grab;
+}
+
+.sub input:hover {
+    opacity: 0.9;
+}
+
+
+.sub {
+    line-height: 19px;
+    display: block;
+    width: 10%;
+}
